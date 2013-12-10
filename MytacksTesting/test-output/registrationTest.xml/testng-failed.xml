@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [registrationTest.xml]">
+  <parameter name="spassword" value="testingg"/>
+  <parameter name="susername" value="testingg"/>
+  <test name="Registration Test(failed)">
+    <parameter name="spassword" value="testingg"/>
+    <parameter name="susername" value="testingg"/>
+    <classes>
+      <class name="TestCases.registrationTest">
+        <methods>
+          <include name="setupBeforeSuite"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="processAfterSuite"/>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.registrationTest -->
+    </classes>
+  </test> <!-- Registration Test(failed) -->
+</suite> <!-- Failed suite [registrationTest.xml] -->

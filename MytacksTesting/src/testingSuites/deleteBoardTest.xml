@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="deleteBoardTest.xml" parallel="false">
+
+ <test name="Delete Board Test">
+    <classes>
+    
+    <parameter name="sboardName" value="tester" />
+    <class name="TestCases.deleteBoardTest" />
+		</classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

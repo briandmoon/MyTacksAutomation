@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="registrationTest.xml" parallel="false">
+
+ <test name="Registration Test">
+    <classes>
+    
+    <parameter name="susername" value="testingg" />
+    <parameter name="spassword" value="testingg" />
+    <class name="TestCases.registrationTest" />
+		</classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

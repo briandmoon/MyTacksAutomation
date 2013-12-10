@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="LoginTest.xml" parallel="false">
+
+ <test name="Login Test">
+    <classes>
+    
+    <parameter name="susername" value="tester" />
+    <parameter name="spassword" value="tester" />
+    <class name="TestCases.LoginTest" />
+		</classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

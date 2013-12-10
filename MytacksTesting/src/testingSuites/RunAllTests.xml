@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test Suite" parallel="false">
+
+
+   <suite-files> 
+  
+   <suite-file path="LoginTest.xml" />
+   <suite-file path="CreateBoardTest.xml" />
+   <suite-file path="TackCreationTest.xml" />
+   <suite-file path="deleteTackTest.xml" />
+   <suite-file path="deleteBoardTest.xml" />
+   
+   </suite-files> 
+
+</suite> <!-- Suite -->

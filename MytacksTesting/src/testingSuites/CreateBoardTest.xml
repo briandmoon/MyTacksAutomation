@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CreateBoardTest.xml" parallel="false">
+
+ <test name="Create Board Test">
+    <classes>
+    
+    <parameter name="sboardName" value="tester" />
+    <class name="TestCases.CreateBoardTest" />
+		</classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

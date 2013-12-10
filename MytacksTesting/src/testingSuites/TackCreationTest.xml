@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TackCreationTest.xml" parallel="false">
+
+ <test name="Tack Creation Test">
+    <classes>
+    
+    <parameter name="stackName" value="tester" />
+    <class name="TestCases.TackCreationTest" />
+		</classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
